@@ -14,7 +14,7 @@
     font-style: normal;
 }
 *{
-    font-family: cursive ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     box-sizing: border-box;
     font-size: clamp (0.9rem, 1vw, 1.5rem);
 }
@@ -50,7 +50,7 @@ nav{
     text-align: center;
     overflow: auto;
     background-color: #9fe5a6;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%; 
 }
 nav a{
@@ -117,7 +117,7 @@ h1{
     text-decoration: none;
     color: white;
     font-size: clamp(1.5rem, 3vw, 6rem);
-    font-family: 'Lilita One', cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin: 0;
     padding: 12px 1px 1px 1px;
