@@ -16,6 +16,7 @@
 *{
     font-family: cursive ;
     box-sizing: border-box;
+    font-size: clamp (0.9rem, 1vw, 1.5rem);
 }
 header {
     background-image: linear-gradient(to right, #f29cfa, #9a05c7, #f29cfa );
@@ -69,7 +70,8 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    color:#058a13
+    color:#058a13;
+    font-size: clamp(1rem, 1.4vw, 2.3rem);
 }
 a:visited{
     color: #058a13;
@@ -107,15 +109,16 @@ a::before{
 h1{
     text-align: center;
     color: #9a05c7;
-    font-family: Milk;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-weight: normal;
+    font-size: clamp(1.2rem, 2.2vw, 4rem);
 }
 #unico{
     text-decoration: none;
     color: white;
-    font-size: 42px;
+    font-size: clamp(1.5rem, 3vw, 6rem);
     font-family: 'Lilita One', cursive;
-    font-weight: normal;
+    font-weight: bold;
     margin: 0;
     padding: 12px 1px 1px 1px;
 }
@@ -147,6 +150,7 @@ div.galeria > h2{
     text-align: center;
     background-color: #9fe5a6;
     color: #058a13;
+    font-size: clamp(1.1rem, 1.8vw, 2.8rem);
 }
 img.inicio {
     max-width: 100%;
@@ -170,10 +174,10 @@ img.inicio {
     background-repeat: repeat;
 }
 .dropbtn {
-    background-color:#9fe5a6;
+    background-color:transparent;
     color:#058a13;
     font-weight: bold;
-    font-size: 16px;
+    font-size: clamp(1.5rem, 2vw, 3rem);
     padding: 16px;
     border: none;
     cursor: pointer;
@@ -187,7 +191,7 @@ img.inicio {
     position: absolute;
     right: 0;
     background-color: #9fe5a6;
-    min-width: 120px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
